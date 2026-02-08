@@ -114,7 +114,7 @@ html.dark .header{box-shadow:0 10px 25px -5px rgba(0,0,0,0.6)}
   text-decoration:none;
   color:var(--text);
   box-shadow:var(--shadow);
-  transition:transform .1s cubic-bezier(0.4, 0, 0.2, 1), box-shadow .15s, border-color .15s;
+  transition:transform .3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow .3s, border-color .3s;
   position:relative;
   overflow:hidden;
 }
@@ -214,7 +214,7 @@ html.dark .cat-header { background: rgba(11, 17, 32, 0.95); }
   text-decoration:none;
   color:var(--text);
   -webkit-tap-highlight-color:transparent;
-  transition:all .15s cubic-bezier(0.4, 0, 0.2, 1);
+  transition:all .3s cubic-bezier(0.4, 0, 0.2, 1);
   position:relative;
 }
 .card:active{transform:scale(0.97);box-shadow:none;background:var(--bg-card)}
