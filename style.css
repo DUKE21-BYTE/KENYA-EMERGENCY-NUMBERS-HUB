@@ -195,20 +195,9 @@ html.dark .cat-header { background: rgba(17, 24, 39, 0.96); }
 }
 
 /* CONTACT CARDS */
-.card{
-  display:flex;align-items:center;gap:16px;
-  padding:16px;
-  margin-bottom:12px;
-  border-radius:20px;
-  background:var(--bg-card);
-  border:1px solid transparent;
-  box-shadow:var(--shadow);
-  text-decoration:none;
-  color:var(--text);
-  -webkit-tap-highlight-color:transparent;
-  transition:all .15s cubic-bezier(0.4, 0, 0.2, 1);
-  position:relative;
-}
+/* No marquee found, but slowing down general transitions to be smoother */
+.card { transition: all .3s cubic-bezier(0.4, 0, 0.2, 1); }
+.quick-btn { transition: transform .2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow .2s, border-color .2s; }
 .card:active{transform:scale(0.97);box-shadow:none;background:var(--bg-card)}
 
 .card-icon{
